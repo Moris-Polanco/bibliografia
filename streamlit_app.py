@@ -7,7 +7,7 @@ openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 
 st.title("Generador de bibliografía estilo APA")
-
+st.caption("Es preciso verificar todas las referencias")
 tema = st.text_input("Introduce el tema de la bibliografía:", "")
 
 if st.button("Generar"):
